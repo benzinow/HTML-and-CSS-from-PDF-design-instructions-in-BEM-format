@@ -1,2 +1,9 @@
 @import url(./__link/resources__logo.css);
 @import url(./__logo/resources__logo.css);
+
+.resources {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0 0 0;
+}

@@ -4,22 +4,20 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Learning how to learn</title>
-        <link rel="stylesheet" href="./vendor/normalize.css" />
-        <link rel="stylesheet" href="./index.css" />
+
+        <link rel="stylesheet" href="./pages/index.css" />
         <link rel="stylesheet" href="./styles/style.css" />
     </head>
     <body>
         <div class="page">
             <header class="header">
                 <div class="logo logo_place_header"></div>
-                <h2 class="header__title">Learning how to learn</h2>
+                <h1 class="header__title">Learning how to learn</h1>
                 <p class="header__subtitle">
                     The most effective, cutting-edge learning techniques that
                     you can apply to your daily life.
 
-                    <a class="header__link links" href="#"
-                        >Learn More &#8594;</a
-                    >
+                    <a class="header__link link" href="#">Learn More &rarr;</a>
                 </p>
                 <img
                     class="header__main-illustration"
@@ -27,9 +25,7 @@
                     alt="blonde girl with her head turned away in a large coat standing on a mossy rock"
                 />
 
-                <div
-                    class="header__square-pic header__square-pic_rotation"
-                ></div>
+                <div class="header__square-pic rotation"></div>
             </header>
 
             <main class="content">
@@ -148,42 +144,44 @@
                     <div class="video__iframes">
                         <iframe
                             class="video__iframe"
-                            width="515"
-                            height="316"
                             src="https://www.youtube.com/embed/5MgBikgcWnY"
-                            frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
                         ></iframe>
                         <iframe
                             class="video__iframe"
-                            width="515"
-                            height="316"
                             src="https://www.youtube.com/embed/arj7oStGLkU"
-                            frameborder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
                         ></iframe>
                     </div>
                 </section>
-                <section>
-                    <section class="oakley">
-                        <div class="two-columns">
+
+                <section class="oakley">
+                    <div class="two-columns">
                         <h2 class="two-columns__brief">
                             Barbara Oakley’s story.
                         </h2>
                         <div class="two-columns__main-text">
                             <p class="two-columns__paragraph">
-                                Math didn't come naturally to Barbara in childhood. She thought of herself as more of a 
-humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after 
-school she enlisted in the army, who sent her to learn Russian. After several years of service, 
-during which she rose to the rank of Captain, Barbara left the army and decided to study 
-engineering. In was during this time that she developed her learning methodology as she was 
-forced to reprogram her brain for a different kind of learning. It turns out that when something 
-doesn't come naturally to you, having to work hard to gain the knowledge that other people 
-may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.
+                                Math didn't come naturally to Barbara in
+                                childhood. She thought of herself as more of a
+                                humanities person, and not a brilliant one at
+                                that. With an eye to becoming a linguist, after
+                                school she enlisted in the army, who sent her to
+                                learn Russian. After several years of service,
+                                during which she rose to the rank of Captain,
+                                Barbara left the army and decided to study
+                                engineering. In was during this time that she
+                                developed her learning methodology as she was
+                                forced to reprogram her brain for a different
+                                kind of learning. It turns out that when
+                                something doesn't come naturally to you, having
+                                to work hard to gain the knowledge that other
+                                people may get at first glance gives you a
+                                deeper, more comprehensive understanding of the
+                                subject matter.
                             </p>
-                          
                         </div>
                     </div>
                 </section>
@@ -193,7 +191,7 @@ may get at first glance gives you a deeper, more comprehensive understanding of 
                     <p class="feynman__subtitle">
                         Learn without forgetting.
                     </p>
-                    <a href="#" class="feynman__link">More &#8594;</a>
+                    <a href="#" class="feynman__link">More &rarr;</a>
                 </section>
                 <section class="digits">
                     <h2 class="section-title">Facts and figures</h2>
@@ -259,26 +257,35 @@ may get at first glance gives you a deeper, more comprehensive understanding of 
                     </ul>
                 </section>
                 <section class="khan">
-               <div class="khan__container">
-                    <p class="khan__author">Salman Khan</p>
-                    <p class="khan__title">The One World Schoolhouse</p>
-                    <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of 
-                        students worldwide. The One World Schoolhouse is a must-read for all 
-                        who are committed to improving education so students everywhere can 
-                        gain the skills and knowledge to be successful in school, careers and life.
-                        </p>
+                    <div class="khan__container">
+                        <p class="khan__author">Salman Khan</p>
+                        <h2 class="khan__title">The One World Schoolhouse</h2>
+                        <blockquote class="khan__quote">
+                            Sal Khan's passion and innovation is transforming
+                            learning for millions of students worldwide. The One
+                            World Schoolhouse is a must-read for all who are
+                            committed to improving education so students
+                            everywhere can gain the skills and knowledge to be
+                            successful in school, careers and life.
+                        </blockquote>
                         <p class="khan__quote-author">George Lucas</p>
                         <p class="khan__quote-author-subline">Filmmaker</p>
                         <div class="khan__book-container">
-                            <div class="khan__book-pic"></div>
-                            <!-- <img class="khan__book-pic" src="images/khan-book.png" alt="book cover of The One World SChool House on digital reading devices"> -->
-                            <a href="#" class="khan__buy-link links">Buy Book &#8594;</a>
+                            <img
+                                class="khan__book-pic"
+                                src="./images/khan-book.png"
+                                alt="book cover of The One World SChool House on digital reading devices"
+                            />
+
+                            <a href="#" class="khan__buy-link link"
+                                >Buy Book &#8594;</a
+                            >
                         </div>
                     </div>
                 </section>
 
                 <section class="kaufman">
-                    <div class="kaufman__triangle header__square-pic_rotation"></div>
+                    <div class="kaufman__triangle rotation"></div>
                     <h2 class="section-title section-title_theme_dark">
                         Ten principles of rapid skill acquisition
                     </h2>
@@ -393,15 +400,41 @@ may get at first glance gives you a deeper, more comprehensive understanding of 
                     <p class="section-subtitle">
                         Further materials on learning techniques and hacks.
                     </p>
-                    <div class="resources__logo-zone">
-                        <a href="#"><img class="resources__logo" src="./images/logo/resources-tedED.png" alt="TEDed logo"></a>
-                        <a href="#"> <img class="resources__logo" src="./images/logo/resources-Medium.png" alt="Medium logo"></a>
-                        <a href="#">
-                        <img class="resources__logo" src="./images/logo/resources-dezeen.png" alt="DeZeen logo"></a>
-                        <a href="#">
-                        <img class="resources__logo" src="./images/logo/resources-goodreads.png" alt="good reads logo"></a>
-                        
-                    </div>
+                    <ul class="resources__logo-zone">
+                        <li class="resources__logo-list">
+                            <a href="#"
+                                ><img
+                                    class="resources__logo"
+                                    src="./images/logo/resources-tedED.png"
+                                    alt="TEDed logo"
+                            /></a>
+                        </li>
+                        <li class="resources__logo-list">
+                            <a href="#">
+                                <img
+                                    class="resources__logo"
+                                    src="./images/logo/resources-Medium.png"
+                                    alt="Medium logo"
+                            /></a>
+                        </li>
+                        <li class="resources__logo-list">
+                            <a href="#">
+                                <img
+                                    class="resources__logo"
+                                    src="./images/logo/resources-dezeen.png"
+                                    alt="DeZeen logo"
+                            /></a>
+                        </li>
+
+                        <li class="resources__logo-list">
+                            <a href="#">
+                                <img
+                                    class="resources__logo"
+                                    src="./images/logo/resources-goodreads.png"
+                                    alt="good reads logo"
+                            /></a>
+                        </li>
+                    </ul>
                 </section>
             </main>
 
@@ -410,16 +443,28 @@ may get at first glance gives you a deeper, more comprehensive understanding of 
                     <div
                         class="footer__column footer__column_content_copyright"
                     >
-                        <div class="footer__logo"></div>
+                        <div class="logo_place_footer"></div>
                         <p class="footer__author">&copy;2020 Benzi Holler</p>
                     </div>
                     <div class="footer__column footer__column_content_info">
                         <h4 class="footer__column-heading">
                             About Practicum by Yandex
                         </h4>
-                        <a href="#" class="footer__column-links">Home</a>
-                        <a href="#" class="footer__column-links">Concept</a>
-                        <a href="#" class="footer__column-links">Mentors</a>
+                        <ul class="footer__column-links">
+                            <li>
+                                <a href="#" class="footer__column-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__column-link"
+                                    >Concept</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer__column-link"
+                                    >Mentors</a
+                                >
+                            </li>
+                        </ul>
                     </div>
                     <div class="footer__column footer__column_content_social">
                         <h4 class="footer__column-heading">
@@ -427,7 +472,7 @@ may get at first glance gives you a deeper, more comprehensive understanding of 
                         </h4>
                         <a
                             href="https://www.facebook.com/YPracticum"
-                            class="footer__column-links"
+                            class="footer__column-link"
                         >
                             <img
                                 class="footer__social-icon"
@@ -437,7 +482,7 @@ may get at first glance gives you a deeper, more comprehensive understanding of 
                         >
                         <a
                             href="https://www.instagram.com/yndx.practicum/"
-                            class="footer__column-links"
+                            class="footer__column-link"
                         >
                             <img
                                 class="footer__social-icon"

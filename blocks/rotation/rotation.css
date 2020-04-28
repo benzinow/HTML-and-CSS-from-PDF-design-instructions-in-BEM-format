@@ -1,8 +1,12 @@
 @keyframes rotation {
     from {
-      transform: rotate(15deg);
+        transform: rotate(15deg);
     }
     to {
-      transform: rotate(375deg);
+        transform: rotate(375deg);
     }
+}
 
+.rotation {
+    animation: rotation 20s ease-in-out infinite;
+}
