@@ -1,5 +1,6 @@
 @import url(./__link/resources__logo.css);
 @import url(./__logo/resources__logo.css);
+@import url(./__logo/resources__logo-zone.css);
 
 .resources {
     display: flex;
