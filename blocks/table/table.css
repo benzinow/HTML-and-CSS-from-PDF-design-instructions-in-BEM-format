@@ -2,13 +2,14 @@
 @import url(./__heading/table__heading.css);
 @import url(./__text/table__text.css);
 @import url(./_theme/table_theme_dark.css);
+@import url(./__text/table__text_theme_dark\.css);
 
 .table {
     width: 1100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* dont know how to get rid of this flex-wrap without messing up the whole page */
     z-index: 2;
     margin: 0;
     padding: 0;

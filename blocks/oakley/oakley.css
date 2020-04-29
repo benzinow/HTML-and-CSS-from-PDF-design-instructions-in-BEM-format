@@ -1,5 +1,5 @@
 .oakley {
     background-color: #f2f2f2;
-    padding: 160px 0 80px 0;
+    padding: 160px 0 1px 0; /*reccommended getting rid of bottom padding here but then there is a giant white gap of space */
     margin: 0;
 }

@@ -1,11 +1,8 @@
-@import url(./logo_place/logo_place_footer.css);
-@import url(./logo_place/logo_place_header.css);
+@import url(./_place/logo_place_footer.css);
+@import url(./_place/logo_place_header.css);
 
 .logo {
-    width: 154px;
-    height: 30px;
     z-index: 3;
-    background-image: url("../../images/logo.png");
     background-size: contain;
     background-repeat: no-repeat;
 }

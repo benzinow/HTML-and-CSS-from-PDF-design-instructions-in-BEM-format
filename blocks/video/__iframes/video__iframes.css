@@ -3,13 +3,3 @@
     position: absolute;
     top: 150px;
 }
-
-.video__iframe {
-    height: 316px;
-    width: 515px;
-    margin: 0 20px 0 0;
-    outline: none;
-}
-.video__iframe:last-of-type {
-    margin: 0 0 0 0;
-}
