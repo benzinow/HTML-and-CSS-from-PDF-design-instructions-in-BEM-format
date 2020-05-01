@@ -2,45 +2,20 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
+    margin: 0 auto 0 auto;
+    padding: 0;
 }
 
-.footer__column_content_copyright {
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-    flex-basis: 711px;
-}
-
+/*
 .footer__column_content_info {
     display: flex;
-
     flex-direction: column;
 }
 
 .footer__column_content_social {
     display: flex;
-
     flex-direction: column;
 }
 
-.footer__column-heading {
-    line-height: 45px;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    margin: 0 0 20px 0;
-}
-
-.footer__column-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.footer__column-link {
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
-    text-decoration: none;
-    color: #f2f2f2;
-}
+in the suggestion it said I could control the flex and direction in .footer__column and I did but now I don't see what use these classes were supposed to have at all?
+*/

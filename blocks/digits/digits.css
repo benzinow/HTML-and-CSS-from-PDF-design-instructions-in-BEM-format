@@ -1,7 +1,7 @@
 .digits {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; /* the improvments say this is redundant but when I remove it it messes up the layout of the page where should it be instead? */
+    flex-direction: column;
     margin: 100px 0 100px 0;
     padding: 0;
 }

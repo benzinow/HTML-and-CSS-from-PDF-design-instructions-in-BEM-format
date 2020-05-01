@@ -4,12 +4,3 @@
     height: 608px;
     overflow: hidden;
 }
-
-.khan__book-pic {
-    margin: 0;
-    padding: 0;
-    width: 620px;
-    height: 608px;
-    object-fit: cover;
-    object-position: top;
-}

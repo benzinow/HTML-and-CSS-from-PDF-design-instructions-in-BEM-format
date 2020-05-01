@@ -1,10 +1,16 @@
-<h1>Learning How to Learn website project</h1>
+# Learning How to Learn website project
 
-<h2>Sub-heading</h2>
+## description
 
-<p>This is an informative webpage made from specific instructions in order to teach myself HTML and CSS through action.</p>
+A vertically scrolling website reffering to various resources on self educating made from specific instructions in order to teach myself HTML and CSS through action.
 
-<p>Future features:Javascript elements may be added\<br />
-Project status: always learning\</p>
+## technologies used
 
-<strong>Author: Benzi Holler</strong>
+HTML
+CSS
+Flexbox techniques
+iFrame for imbedding youtube videos
+
+## author
+
+Benzi Holler

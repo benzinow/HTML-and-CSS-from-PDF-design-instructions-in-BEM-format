@@ -4,11 +4,12 @@
     width: 60%;
     line-height: 34px;
     font-size: 24px;
-    margin: 0;
+    margin: 0 auto 0 auto;
     padding: 0;
     font-weight: normal;
     text-align: center;
     z-index: 2;
+    text-align: center;
 }
 
 /* including elements with key-value modifiers */
